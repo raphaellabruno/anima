@@ -18,7 +18,7 @@ namespace Anima
     //[TestFixture]
     public class Tests : WebDriver
     {
-        CadastroPageObjects cadastro = new CadastroPageObjects();
+        CadastroPageObjetcs cadastro = new CadastroPageObjetcs(driver);
         Utils utils = new Utils();
 
         [Test]

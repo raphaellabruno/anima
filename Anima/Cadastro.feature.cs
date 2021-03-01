@@ -21,14 +21,12 @@ namespace Anima
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Cadastrar Usuário")]
-    [NUnit.Framework.CategoryAttribute("SquadInternacional")]
     public partial class CadastrarUsuarioFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = new string[] {
-                "SquadInternacional"};
+        private string[] _featureTags = ((string[])(null));
         
 #line 1 "Cadastro.feature"
 #line hidden
@@ -38,19 +36,14 @@ namespace Anima
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "", "Cadastrar Usuário", @"	Como um usuário com acesso a tela de Gerenciar Timbrado
-    Quero alterar os dados das Notas Crédito.
+    Quero cadastrar um novo usuário
 
 Scenario :
 	Given  A tela home foi aberta
-	And selecionou a opção nota de crédito
-	And A Entidade do Contexto possui Timbrado configurado
-	And O usuário clicou no botão filtrar
-	And As informações foram carregadas na grid
-	And O usuário clicou no botão editar
-	When jjk
-	And jaj
-	Then hjjh", ProgrammingLanguage.CSharp, new string[] {
-                        "SquadInternacional"});
+	And Clicou no botão Começar Automação Web
+	And Clicou no Menu Formulário
+	And Clicou no Menu Criar Usuário
+	And Os campos foram carregados na tela", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
